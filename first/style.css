@@ -1,0 +1,95 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: #DDDDDD;
+	margin-top: 20px;
+
+}
+
+.container {
+	width: 60%;
+	height: 800px;
+	margin: 0 auto;
+	background: #FFF;
+	border: 1px solid red;
+}
+.top {
+	height: 10%;
+	width: 100%;
+	padding-bottom: 10px;
+
+}
+.blocks {
+
+	height: 100px;
+	width: 31%;
+	padding: 1px;
+	box-sizing: border-box;
+
+}
+.top__left{
+	background-color: #D0021B; 
+	position: relative;
+	top: 10px;
+	left: 20px;
+    display: inline-block;
+}
+.top__center{
+	background-color: #4A90E2;
+	position: relative;
+	top: 10px;
+	left: 20px;
+    display: inline-block;
+	}
+.top__right {
+	background-color: #4A4A4A;
+	position: relative;
+	top: 10px;
+	left: 20px;
+    display: inline-block;
+}
+
+.text {
+	height: 18%;
+	width: 100%;
+	font-family: 'Helvetica', sans-serif;
+    padding-bottom: 10px;
+}
+
+.bigbox {
+	height: 40%;
+	width: 100%;
+    padding-top: 5px;
+    margin: 0 auto;
+
+}
+.big__left{
+	background: #D0021B;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+}
+.big__right{
+	background: #4A90E2;
+	width: 55%;
+	height: 100%;
+	display: inline-block;
+}
+.bottom {
+	height: 10%;
+	width: 100%;
+}
+
+.b__left{
+    background: #4A90E2;
+    height: 100%;
+    width: 60%;
+}
+.b__right{
+   background: #D0021B; 
+    height: 100%;
+    width: 35%;
+}
+.inside{
+    background-color: #4A4A4A;
+}
